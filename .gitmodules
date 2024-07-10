@@ -1,0 +1,3 @@
+[submodule "PolarisLiteTestFramework"]
+	path = PolarisLiteTestFramework
+	url = https://github.com/AutomateThePlanet/PolarisLiteTestFramework
