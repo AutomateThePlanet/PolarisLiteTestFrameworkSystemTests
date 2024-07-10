@@ -3,7 +3,7 @@ using PolarisLite.Web.Contracts;
 
 namespace PolarisLite.Web;
 
-public partial class UpdatedEmail : Email
+public partial class UpdatedEmail : EmailExtensions
 {
     public override void SetEmail(string email)
     {

@@ -10,17 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\PolarisLiteTestFramework\PolarisLite.Web\Assertions\ValidateComponentExtensions.cs" Link="Assertions\Custom\ValidateComponentExtensions.cs" />
-    <Compile Include="..\PolarisLiteTestFramework\PolarisLite.Web\Components\Email.cs" Link="Components\Email.cs" />
-    <Compile Include="..\PolarisLiteTestFramework\PolarisLite.Web\Services\DriverAdapter.Browser.cs" Link="Services\Custom\DriverAdapter.Browser.cs" />
-    <Compile Include="..\PolarisLiteTestFramework\PolarisLite.Web\Services\DriverAdapter.Cookies.cs" Link="Services\Custom\DriverAdapter.Cookies.cs" />
-    <Compile Include="..\PolarisLiteTestFramework\PolarisLite.Web\Services\DriverAdapter.Find.cs" Link="Services\Custom\DriverAdapter.Find.cs" />
-    <Compile Include="..\PolarisLiteTestFramework\PolarisLite.Web\Services\DriverAdapter.Interactions.cs" Link="Services\Custom\DriverAdapter.Interactions.cs" />
-    <Compile Include="..\PolarisLiteTestFramework\PolarisLite.Web\Services\DriverAdapter.JavaScript.cs" Link="Services\Custom\DriverAdapter.JavaScript.cs" />
-    <Compile Include="..\PolarisLiteTestFramework\PolarisLite.Web\Services\DriverAdapter.Navigation.cs" Link="Services\Custom\DriverAdapter.Navigation.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
     <PackageReference Include="NUnit" Version="3.14.0" />
     <PackageReference Include="NUnit.Analyzers" Version="3.9.0" />
