@@ -1,0 +1,12 @@
+﻿global using System;
+global using System.Diagnostics;
+global using NUnit.Framework;
+global using OpenQA.Selenium;
+global using OpenQA.Selenium.Remote;
+global using System.Drawing;
+global using System.IO;
+global using System.Collections.Generic;
+global using Newtonsoft.Json;
+global using OpenQA.Selenium.Interactions;
+global using OpenQA.Selenium.Support.UI;
+global using SeleniumExtras.WaitHelpers;
