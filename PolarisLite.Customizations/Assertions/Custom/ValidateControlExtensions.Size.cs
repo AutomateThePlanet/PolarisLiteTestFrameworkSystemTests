@@ -1,4 +1,5 @@
 ﻿using PolarisLite.Web.Contracts;
+using PolarisLite.Web.Core;
 
 namespace PolarisLite.Web.Assertions;
 

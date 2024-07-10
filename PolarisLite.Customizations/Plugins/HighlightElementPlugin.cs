@@ -40,7 +40,7 @@ public class HighlightElementPlugin : WebComponentPlugin
                 }, 500);";
 
             // can be moved to constructor injection, instead of interface we can use base class
-            var driver = new DriverAdapter();
+            IJavaScriptService driver = new DriverAdapter();
             driver.Execute(script, element.WrappedElement);
         }
         catch (Exception ex)

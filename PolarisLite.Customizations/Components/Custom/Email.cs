@@ -3,7 +3,7 @@ using PolarisLite.Web.Contracts;
 
 namespace PolarisLite.Web;
 
-public partial class Email : IComponentMaxLength, IComponentMinLength, IComponentSize
+public partial class Email : WebComponent, IComponentMaxLength, IComponentMinLength, IComponentSize
 {
     public virtual int? MaxLength => string.IsNullOrEmpty(GetAttribute("minlength")) ? null : (int?)int.Parse(GetAttribute("minlength"));
 

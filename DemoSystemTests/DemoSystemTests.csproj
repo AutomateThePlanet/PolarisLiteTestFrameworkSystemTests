@@ -17,6 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PolarisLite.Web\PolarisLite.Web.csproj" />
+    <ProjectReference Include="..\PolarisLiteTestFramework\PolarisLite.Web\PolarisLite.Web.csproj" />
   </ItemGroup>
 </Project>
