@@ -5,12 +5,6 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoSystemTests", "DemoSystemTests\DemoSystemTests.csproj", "{E69FA592-CF4B-4D89-A7B7-CE17FCB3E647}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{943F6B1C-81A0-418F-95C7-0D6BD8745449}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolarisLite.Web", "PolarisLiteTestFramework\PolarisLite.Web\PolarisLite.Web.csproj", "{F749C65F-84EE-49C4-87F5-76542A3331D2}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolarisLite.Core", "PolarisLiteTestFramework\PolarisLite.Core\PolarisLite.Core.csproj", "{F224BA21-2C00-4C54-A448-2F6C6F2D5707}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolarisLite.Customizations", "PolarisLite.Customizations\PolarisLite.Customizations.csproj", "{A7BDF046-F3ED-4D56-ADD5-269A92CF009A}"
 EndProject
 Global
@@ -23,14 +17,6 @@ Global
 		{E69FA592-CF4B-4D89-A7B7-CE17FCB3E647}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E69FA592-CF4B-4D89-A7B7-CE17FCB3E647}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E69FA592-CF4B-4D89-A7B7-CE17FCB3E647}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F749C65F-84EE-49C4-87F5-76542A3331D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F749C65F-84EE-49C4-87F5-76542A3331D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F749C65F-84EE-49C4-87F5-76542A3331D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F749C65F-84EE-49C4-87F5-76542A3331D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F224BA21-2C00-4C54-A448-2F6C6F2D5707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F224BA21-2C00-4C54-A448-2F6C6F2D5707}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F224BA21-2C00-4C54-A448-2F6C6F2D5707}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F224BA21-2C00-4C54-A448-2F6C6F2D5707}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A7BDF046-F3ED-4D56-ADD5-269A92CF009A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A7BDF046-F3ED-4D56-ADD5-269A92CF009A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7BDF046-F3ED-4D56-ADD5-269A92CF009A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,10 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F749C65F-84EE-49C4-87F5-76542A3331D2} = {943F6B1C-81A0-418F-95C7-0D6BD8745449}
-		{F224BA21-2C00-4C54-A448-2F6C6F2D5707} = {943F6B1C-81A0-418F-95C7-0D6BD8745449}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0068AF3-5655-47FC-AC14-956EEE2AAD4C}
